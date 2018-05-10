@@ -33,7 +33,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
         <max_length>80</max_length>
         <name>x_125179_crms_service</name>
@@ -41,7 +41,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -55,14 +55,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-10 12:45:08</sys_created_on>
         <sys_id>ac4d4720374213008624ae7873990e37</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>SERVICE OWNER</sys_name>
         <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
         <sys_policy/>
         <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
         <sys_update_name>sys_dictionary_x_125179_crms_service_service_owner</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-10 13:02:28</sys_updated_on>
+        <sys_updated_on>2018-05-10 16:04:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

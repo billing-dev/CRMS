@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="batch_name_rollup" label="BATCH NAME ROLLUP" language="en" table="x_125179_crms_je">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>batch_name_rollup</element>
+            <help/>
+            <hint/>
+            <label>BATCH NAME ROLLUP</label>
+            <language>en</language>
+            <name>x_125179_crms_je</name>
+            <plural>BATCH NAME ROLLUPs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-10 16:52:07</sys_created_on>
+            <sys_id>d6f50c3437c213008624ae7873990ef5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>BATCH NAME ROLLUP</sys_name>
+            <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
+            <sys_update_name>sys_documentation_x_125179_crms_je_batch_name_rollup_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-10 16:52:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -2,6 +2,10 @@
 <database>
     <element label="Service" max_length="40" name="x_125179_crms_service" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="SERVICE ID" max_length="40" name="number" type="string"/>
-        <element label="SERVICE OWNER" max_length="80" name="service_owner" type="string"/>
+        <element label="SERVICE OWNER" max_length="80" name="service_owner" reference="sys_user" type="reference"/>
+        <element label="Feeder Subscription ID" max_length="32" name="u_reference_1" reference="x_125179_crms_feeder_subscription" type="reference"/>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
     </element>
 </database>

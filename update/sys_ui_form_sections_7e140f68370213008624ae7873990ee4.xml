@@ -4,16 +4,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 12:04:20</sys_created_on>
+            <sys_created_on>2018-05-10 15:47:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f2140f68370213008624ae7873990ee7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>0a2773e8378213008624ae7873990eb8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_125179_crms_feeder_subscription" name="x_125179_crms_feeder_subscription" sys_domain="global" view="Default view">7e140f68370213008624ae7873990ee4</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_feeder_subscription" sys_domain="global" view="Default view">83b30768370213008624ae7873990e04</sys_ui_section>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_125179_crms_feeder_subscription" sys_domain="global" view="Default view">c62773e8378213008624ae7873990ea7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 12:04:20</sys_updated_on>
+            <sys_updated_on>2018-05-10 15:47:23</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>

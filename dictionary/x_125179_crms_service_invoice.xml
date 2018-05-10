@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Service Invoice" max_length="40" name="x_125179_crms_service_invoice" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="AMOUNT" max_length="20" name="amount" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="CREDIT AMT" max_length="20" name="credit_amt" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="DATE CREATED" max_length="40" name="date_created" type="glide_date_time"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="DEBIT AMT" max_length="20" name="debit_amt" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="EXPENDITURE COMMENT" max_length="80" name="expenditure_comment" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="EXPENDITURE ITEM DATE" max_length="40" name="expenditure_item_date" type="glide_date_time"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="GL JE DESCRIPTION" max_length="80" name="gl_je_description" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="GL JE LINE DESC" max_length="80" name="gl_je_line_desc" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Service Invoice ID" max_length="40" name="number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Service Subscription ID" max_length="32" name="service_subscription_id" reference="x_125179_crms_service_subscription" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="STATUS" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="PENDING" sequence="0" value="0"/>
+                <element label="SUBMITTED" sequence="1" value="1"/>
+                <element label="PAID" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element label="JE ID" max_length="32" name="u_reference_1" reference="x_125179_crms_je" type="reference"/>
+        <index name="index">
+            <element name="service_subscription_id"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>
