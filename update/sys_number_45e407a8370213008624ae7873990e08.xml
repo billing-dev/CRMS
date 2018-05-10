@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_125179_crms_service">x_125179_crms_service</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SER</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-10 12:07:45</sys_created_on>
+        <sys_id>45e407a8370213008624ae7873990e08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SER</sys_name>
+        <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
+        <sys_update_name>sys_number_45e407a8370213008624ae7873990e08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-10 12:07:45</sys_updated_on>
+    </sys_number>
+</record_update>

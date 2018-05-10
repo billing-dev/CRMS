@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Feeder Subscription" max_length="40" name="x_125179_crms_feeder_subscription" type="collection">
+        <element label="DATE SUBSCRIBED" max_length="40" name="date_subscribed" type="glide_date_time"/>
+        <element label="EXPENDITURE TYPE" max_length="80" name="expenditure_type" type="string"/>
+        <element label="GL_STRING" max_length="32" name="gl_string" reference="x_125179_crms_oracle_string" type="reference"/>
+        <element label="NON LABOR RESOURCE" max_length="80" name="non_labor_resource" type="string"/>
+        <element label="NON LABOR RESOURCE ORG NAME" max_length="80" name="non_labor_resource_org_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Feeder Subscription ID" max_length="40" name="number" type="string"/>
+        <element label="OBJECT CODE EXPENDITURE" max_length="80" name="object_code_expenditure" type="string"/>
+        <element label="OBJECT CODE REVENUE" max_length="80" name="object_code_revenue" type="string"/>
+        <element display="true" label="TRANSACTION SOURCE" max_length="80" name="transaction_source" type="string"/>
+        <element dependent="gl_string" dependent_on_field="gl_string" label="PROJECT VALUE" max_length="32" name="u_reference_2" reference="x_125179_crms_oracle_string" type="reference" use_dependent_field="true"/>
+        <element dependent="gl_string" dependent_on_field="gl_string" label="PROJECT" max_length="32" name="u_reference_3" reference="x_125179_crms_oracle_string" type="reference" use_dependent_field="true"/>
+        <index name="index">
+            <element name="u_reference_2"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_3"/>
+        </index>
+        <index name="index3">
+            <element name="gl_string"/>
+        </index>
+    </element>
+</database>

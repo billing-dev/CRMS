@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Service" max_length="40" name="x_125179_crms_service" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="SERVICE ID" max_length="40" name="number" type="string"/>
+        <element label="SERVICE OWNER" max_length="80" name="service_owner" type="string"/>
+    </element>
+</database>

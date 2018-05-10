@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Oracle String" max_length="40" name="x_125179_crms_oracle_string" type="collection">
+        <element label="ACTIVTY" max_length="3" name="activty" type="string"/>
+        <element label="AWARD" max_length="20" name="award" type="string"/>
+        <element label="ENTITY" max_length="2" name="entity" type="string"/>
+        <element label="FUNDING" max_length="6" name="funding" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="ORACLE ID" max_length="40" name="number" type="string"/>
+        <element label="ORG" max_length="6" name="org" type="string"/>
+        <element label="PROJECT" max_length="20" name="project" type="string"/>
+        <element choice="3" label="ORACLE STRING TYPE" max_length="40" name="string_type" type="choice">
+            <choice>
+                <element label="Grants Management (GM)" value="2"/>
+                <element label="General Ledger (GL)" sequence="1" value="GL"/>
+            </choice>
+        </element>
+        <element label="TASK" max_length="20" name="task" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="XFUNC" max_length="3" name="xfunc" type="string"/>
+    </element>
+</database>

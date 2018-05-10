@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="charge_cycle" table="x_125179_crms_service_subscription" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>charge_cycle</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MONTHLY</label>
+            <language>en</language>
+            <name>x_125179_crms_service_subscription</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-10 12:29:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68b90f6c370213008624ae7873990e6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-10 12:29:04</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>charge_cycle</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QUARTERLY</label>
+            <language>en</language>
+            <name>x_125179_crms_service_subscription</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-10 12:29:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51d94f6c370213008624ae7873990ea4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-10 12:29:36</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>charge_cycle</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>YEARLY</label>
+            <language>en</language>
+            <name>x_125179_crms_service_subscription</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-10 12:29:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cae90f6c370213008624ae7873990e71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-10 12:29:50</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>charge_cycle</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ONE TIME</label>
+            <language>en</language>
+            <name>x_125179_crms_service_subscription</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-10 12:30:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e0a8f6c370213008624ae7873990e23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-10 12:30:54</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>charge_cycle</element>
+            <name>x_125179_crms_service_subscription</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-10 12:29:04</sys_created_on>
+            <sys_id>c1c90f6c370213008624ae7873990edd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>charge_cycle</sys_name>
+            <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
+            <sys_update_name>sys_choice_x_125179_crms_service_subscription_charge_cycle</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-10 12:29:04</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

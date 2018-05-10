@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Service Subscription" max_length="40" name="x_125179_crms_service_subscription" type="collection">
+        <element choice="1" label="CHARGE CYCLE" max_length="40" name="charge_cycle" type="choice">
+            <choice>
+                <element label="MONTHLY" sequence="1" value="1"/>
+                <element label="QUARTERLY" sequence="2" value="2"/>
+                <element label="YEARLY" sequence="3" value="2"/>
+                <element label="ONE TIME" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="DATE SUBSCRIBE" max_length="40" name="date_subscribe" type="glide_date_time"/>
+        <element label="END DATE" max_length="40" name="end_date" type="glide_date_time"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Service Subscription ID" max_length="40" name="number" type="string"/>
+        <element label="SERVICE ID" max_length="32" name="service_id" reference="x_125179_crms_service" reference_qual="numberSTARTSWITH^EQ" reference_qual_condition="numberSTARTSWITH^EQ" type="reference"/>
+        <index name="index">
+            <element name="service_id"/>
+        </index>
+    </element>
+</database>
