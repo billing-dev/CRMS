@@ -11,7 +11,7 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Service</label>
+        <label>Recharge Service</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_125179_crms_service</name>
         <number_ref display_value="SER">45e407a8370213008624ae7873990e08</number_ref>
@@ -24,14 +24,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-10 11:38:40</sys_created_on>
         <sys_id>fbdd7a20370213008624ae7873990e2a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Service</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Recharge Service</sys_name>
         <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
         <sys_policy/>
         <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
         <sys_update_name>sys_db_object_fbdd7a20370213008624ae7873990e2a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-10 12:07:45</sys_updated_on>
+        <sys_updated_on>2018-05-11 14:06:17</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_125179_crms.service_user" name="x_125179_crms.service_user">323eba24370213008624ae7873990e98</user_role>
         <ws_access>true</ws_access>

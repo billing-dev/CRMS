@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Feeder Subscription" max_length="40" name="x_125179_crms_feeder_subscription" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="BIlling Feeder Service" max_length="32" name="billing_feeder_service" reference="x_125179_crms_billing_service" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Contact UID 1" max_length="32" name="contact_uid_1" reference="sys_user" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Contact UID 2" max_length="32" name="contact_uid_2" reference="sys_user" type="reference"/>
         <element label="DATE SUBSCRIBED" max_length="40" name="date_subscribed" type="glide_date_time"/>
@@ -32,6 +33,9 @@
         </index>
         <index name="index6">
             <element name="feeder_service_owner"/>
+        </index>
+        <index name="index7">
+            <element name="billing_feeder_service"/>
         </index>
     </element>
 </database>
