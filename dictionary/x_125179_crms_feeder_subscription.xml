@@ -8,9 +8,9 @@
         <element label="EXPENDITURE TYPE" max_length="80" name="expenditure_type" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Feeder Service Owner" max_length="32" name="feeder_service_owner" reference="sys_user" type="reference"/>
         <element label="GL_STRING" max_length="32" name="gl_string" reference="x_125179_crms_oracle_string" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Label" max_length="40" name="label" type="string"/>
         <element label="NON LABOR RESOURCE" max_length="80" name="non_labor_resource" type="string"/>
         <element label="NON LABOR RESOURCE ORG NAME" max_length="80" name="non_labor_resource_org_name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Feeder Subscription ID" max_length="40" name="number" type="string"/>
         <element label="OBJECT CODE EXPENDITURE" max_length="80" name="object_code_expenditure" type="string"/>
         <element label="OBJECT CODE REVENUE" max_length="80" name="object_code_revenue" type="string"/>
         <element label="TRANSACTION SOURCE" max_length="80" name="transaction_source" type="string"/>
