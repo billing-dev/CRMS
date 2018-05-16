@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_section caption="" section_id="b4a5cade370213008624ae7873990eea" sys_domain="global" table="x_125179_crms_service_config" version="3" view="">
+    <sys_ui_section caption="New Section" section_id="f1eb0bea378213008624ae7873990e6f" sys_domain="global" table="x_125179_crms_service_subscription" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>service_name</element>
-            <position>1</position>
+            <element>.split</element>
+            <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-16 15:14:44</sys_created_on>
-            <sys_id>9e39ee66374213008624ae7873990e3a</sys_id>
+            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
+            <sys_id>46eb4bea378213008624ae7873990e57</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_config" sys_domain="global" view="Default view">b4a5cade370213008624ae7873990eea</sys_ui_section>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">f1eb0bea378213008624ae7873990e6f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-16 15:14:44</sys_updated_on>
+            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>New Section</caption>
             <header>false</header>
-            <name>x_125179_crms_service_config</name>
+            <name>x_125179_crms_service_subscription</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-15 18:00:46</sys_created_on>
+            <sys_created_on>2018-05-16 17:46:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b4a5cade370213008624ae7873990eea</sys_id>
+            <sys_id>f1eb0bea378213008624ae7873990e6f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_125179_crms_service_config</sys_name>
+            <sys_name>New Section</sys_name>
             <sys_overrides/>
             <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
             <sys_policy/>
             <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
-            <sys_update_name>sys_ui_section_b4a5cade370213008624ae7873990eea</sys_update_name>
+            <sys_update_name>sys_ui_section_f1eb0bea378213008624ae7873990e6f</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-15 18:00:46</sys_updated_on>
+            <sys_updated_on>2018-05-16 17:46:15</sys_updated_on>
             <sys_user/>
-            <title>true</title>
+            <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>

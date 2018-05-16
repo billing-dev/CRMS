@@ -9,15 +9,15 @@
             <label>MONTHLY</label>
             <language>en</language>
             <name>x_125179_crms_service_subscription</name>
-            <sequence>1</sequence>
+            <sequence>10</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-10 12:29:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>68b90f6c370213008624ae7873990e6e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 12:29:04</sys_updated_on>
+            <sys_updated_on>2018-05-16 15:10:59</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -28,15 +28,15 @@
             <label>QUARTERLY</label>
             <language>en</language>
             <name>x_125179_crms_service_subscription</name>
-            <sequence>2</sequence>
+            <sequence>20</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-10 12:29:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>51d94f6c370213008624ae7873990ea4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 12:29:36</sys_updated_on>
+            <sys_updated_on>2018-05-16 15:11:10</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -47,16 +47,16 @@
             <label>YEARLY</label>
             <language>en</language>
             <name>x_125179_crms_service_subscription</name>
-            <sequence>3</sequence>
+            <sequence>30</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-10 12:29:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>cae90f6c370213008624ae7873990e71</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 12:29:50</sys_updated_on>
-            <value>2</value>
+            <sys_updated_on>2018-05-16 15:11:19</sys_updated_on>
+            <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -66,16 +66,16 @@
             <label>ONE TIME</label>
             <language>en</language>
             <name>x_125179_crms_service_subscription</name>
-            <sequence>4</sequence>
+            <sequence>40</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-10 12:30:54</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3e0a8f6c370213008624ae7873990e23</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 12:30:54</sys_updated_on>
-            <value>4</value>
+            <sys_updated_on>2018-05-16 15:11:27</sys_updated_on>
+            <value>10</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>charge_cycle</element>

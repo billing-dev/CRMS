@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="75eb0bea378213008624ae7873990e70" sys_domain="global" table="x_125179_crms_service_subscription" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9eb0bea378213008624ae7873990e72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_125179_crms_service_subscription" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">75eb0bea378213008624ae7873990e70</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5eb0bea378213008624ae7873990e73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_125179_crms_service_subscription" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">75eb0bea378213008624ae7873990e70</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">f1eb0bea378213008624ae7873990e6f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_125179_crms_service_subscription</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 17:46:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75eb0bea378213008624ae7873990e70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_125179_crms_service_subscription</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
+            <sys_update_name>sys_ui_form_sections_75eb0bea378213008624ae7873990e70</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 17:46:15</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

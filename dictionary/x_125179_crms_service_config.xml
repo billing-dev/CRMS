@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Service Config" max_length="40" name="x_125179_crms_service_config" type="collection"/>
+    <element label="Service Config" max_length="40" name="x_125179_crms_service_config" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Service Name" max_length="40" name="service_name" type="string"/>
+    </element>
 </database>

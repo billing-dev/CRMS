@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>1d9ccc7837c213008624ae7873990e51</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>c55d3ae2378213008624ae7873990e80</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>service_subscription_id</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>9d9ccc7837c213008624ae7873990e51</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>495d3ae2378213008624ae7873990e80</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>u_reference_1</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>119ccc7837c213008624ae7873990e52</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>c95d3ae2378213008624ae7873990e80</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>date_created</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>919ccc7837c213008624ae7873990e52</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>4d5d3ae2378213008624ae7873990e80</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,169 +61,141 @@
             <element>status</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>159ccc7837c213008624ae7873990e52</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>cd5d3ae2378213008624ae7873990e80</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
+            <element>debit_amt</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>959ccc7837c213008624ae7873990e52</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>415d3ae2378213008624ae7873990e81</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>199ccc7837c213008624ae7873990e52</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>999ccc7837c213008624ae7873990e52</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>debit_amt</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>1d9ccc7837c213008624ae7873990e52</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>credit_amt</element>
-            <position>9</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>9d9ccc7837c213008624ae7873990e52</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>c15d3ae2378213008624ae7873990e81</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gl_je_line_desc</element>
-            <position>10</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>119ccc7837c213008624ae7873990e53</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>455d3ae2378213008624ae7873990e81</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>gl_je_description</element>
-            <position>11</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>919ccc7837c213008624ae7873990e53</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>c55d3ae2378213008624ae7873990e81</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>amount</element>
-            <position>12</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>159ccc7837c213008624ae7873990e53</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>495d3ae2378213008624ae7873990e81</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>expenditure_item_date</element>
-            <position>13</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>959ccc7837c213008624ae7873990e53</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>c95d3ae2378213008624ae7873990e81</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>expenditure_comment</element>
-            <position>14</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>199ccc7837c213008624ae7873990e53</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>4d5d3ae2378213008624ae7873990e81</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>15</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-10 17:20:59</sys_created_on>
-            <sys_id>999ccc7837c213008624ae7873990e53</sys_id>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>cd5d3ae2378213008624ae7873990e81</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-10 17:20:59</sys_updated_on>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
             <sys_user/>
             <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-16 16:42:34</sys_created_on>
+            <sys_id>415d3ae2378213008624ae7873990e82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_invoice" sys_domain="global" view="Default view">29fb4c3837c213008624ae7873990e16</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-16 16:42:34</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
