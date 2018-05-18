@@ -15,7 +15,7 @@
         <mobile_title>Feeder Subscriptions</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_125179_crms_feeder_subscription</name>
-        <order>55</order>
+        <order>155</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>73e18328370213008624ae7873990e3a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Feeder Subscriptions</sys_name>
         <sys_overrides/>
         <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
         <sys_update_name>sys_app_module_73e18328370213008624ae7873990e3a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-11 14:15:50</sys_updated_on>
+        <sys_updated_on>2018-05-18 18:35:17</sys_updated_on>
         <timeline_page/>
         <title>Feeder Subscriptions</title>
         <uncancelable>false</uncancelable>
