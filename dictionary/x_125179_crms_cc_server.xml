@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="CC_Server" max_length="40" name="x_125179_crms_cc_server" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" label="Architecture" max_length="40" name="architecture" type="choice">
+            <choice>
+                <element label="32 BIT" value="1"/>
+                <element label="64 BIT" value="2"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Base config" max_length="32" name="base_config" reference="x_125179_crms_cc_base_config" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.base_config.cpu;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="base_CPU" max_length="40" name="base_cpu" type="integer" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.base_config.disk;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Base disk" max_length="40" name="base_disk" type="integer" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.base_config.memory;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Base mem" max_length="40" name="base_mem" type="integer" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.base_config.cost;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Cost" max_length="20" name="cost" type="currency" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="optional_CPU" max_length="40" name="optional_cpu" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="optional_CPU_cost" max_length="20" name="optional_cpu_cost" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional disk" max_length="40" name="optional_disk" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional disk cost" max_length="20" name="optional_disk_cost" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional mem" max_length="40" name="optional_mem" type="integer"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional mem cost" max_length="20" name="optional_mem_cost" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="OS" max_length="32" name="os" reference="x_125179_crms_operatingsystem" type="reference">
+            <choice/>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Server name" max_length="80" name="server_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Network" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element label="Public" sequence="0" value="1"/>
+                <element label="Private" sequence="1" value="2"/>
+                <element label="NONE" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="base_config"/>
+        </index>
+        <index name="index2">
+            <element name="os"/>
+        </index>
+    </element>
+</database>

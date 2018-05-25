@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="config_name" label="Config name" language="en" table="x_125179_crms_cc_base_config">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>config_name</element>
+            <help/>
+            <hint/>
+            <label>Config name</label>
+            <language>en</language>
+            <name>x_125179_crms_cc_base_config</name>
+            <plural>Config names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:08:37</sys_created_on>
+            <sys_id>76a2ace5371213008624ae7873990e27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Config name</sys_name>
+            <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
+            <sys_update_name>sys_documentation_x_125179_crms_cc_base_config_config_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:08:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
