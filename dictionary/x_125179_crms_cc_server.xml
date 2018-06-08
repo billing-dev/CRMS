@@ -11,13 +11,32 @@
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.base_config.cpu;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="base_CPU" max_length="40" name="base_cpu" type="integer" virtual="true"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.base_config.disk;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Base disk" max_length="40" name="base_disk" type="integer" virtual="true"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.base_config.memory;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Base mem" max_length="40" name="base_mem" type="integer" virtual="true"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.base_config.cost;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Cost" max_length="20" name="cost" type="currency" virtual="true"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="optional_CPU" max_length="40" name="optional_cpu" type="integer"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="optional_CPU_cost" max_length="20" name="optional_cpu_cost" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.base_config.cost;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Base Cost" max_length="20" name="cost" type="currency" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="optional_CPU" max_length="40" name="optional_cpu" type="choice">
+            <choice>
+                <element label="4 vCPUs (1 Unit)" sequence="5" value="1"/>
+                <element label="8 vCPUs (2 Units)" sequence="10" value="2"/>
+                <element label="12 vCPUs (3 Units)" sequence="20" value="3"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.optional_cpu * 100;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional CPU Cost" max_length="20" name="optional_cpu_cost" type="currency" virtual="true"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional disk" max_length="40" name="optional_disk" type="integer"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional disk cost" max_length="20" name="optional_disk_cost" type="currency"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional mem" max_length="40" name="optional_mem" type="integer"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional mem cost" max_length="20" name="optional_mem_cost" type="currency"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return (current.optional_disk / 10) * 15;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional disk Cost" max_length="20" name="optional_disk_cost" type="currency" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="type_detail" label="Optional mem" max_length="40" name="optional_mem" type="choice">
+            <choice>
+                <element label="4 GB (1 Unit)" sequence="5" value="1"/>
+                <element label="8 GB (2 Units)" sequence="10" value="2"/>
+                <element label="12 GB (3 Units)" sequence="15" value="3"/>
+                <element label="16 GB (4 Units)" sequence="20" value="4"/>
+                <element label="20 GB (5 Units)" sequence="25" value="5"/>
+                <element label="24 GB (6 Units)" sequence="30" value="6"/>
+                <element label="28 GB (7 Units)" sequence="35" value="7"/>
+                <element label="32 GB (8 Units)" sequence="40" value="8"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.optional_mem * 60;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional mem Cost" max_length="20" name="optional_mem_cost" type="currency" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return (current.optional_ssd_disk / 10) * 25;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional SSD Cost" max_length="20" name="optional_ssd_cost" type="currency" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Optional SSD Disk" max_length="40" name="optional_ssd_disk" type="integer"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="OS" max_length="32" name="os" reference="x_125179_crms_operatingsystem" type="reference">
             <choice/>
         </element>

@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Billing Service">9a7728c1370213008624ae7873990ebd</application>
+        <application/>
         <filter/>
         <name>Billing Services</name>
         <order/>

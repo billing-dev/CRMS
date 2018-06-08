@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions table="x_125179_crms_cc_server">base_config=4928682d371213008624ae7873990e0f^ORbase_config=e748242d371213008624ae7873990ec6^EQ<item display_table="x_125179_crms_cc_base_config" display_value="SMALL" endquery="false" field="base_config" goto="false" newquery="false" operator="=" or="false" value="4928682d371213008624ae7873990e0f"/>
+            <item display_table="x_125179_crms_cc_base_config" display_value="MEDIUM" endquery="false" field="base_config" goto="false" newquery="false" operator="=" or="true" value="e748242d371213008624ae7873990ec6"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_125179_crms_cc_server</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>DO not Display CPU or MEM option for SMALL or MEDIUM configs</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-05 16:51:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d14f7905372213008624ae7873990e73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DO not Display CPU or MEM option for SMALL or MEDIUM configs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
+        <sys_update_name>sys_data_policy2_d14f7905372213008624ae7873990e73</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-05 16:51:56</sys_updated_on>
+    </sys_data_policy2>
+</record_update>

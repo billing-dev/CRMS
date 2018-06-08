@@ -5,13 +5,13 @@
             <element>recharge_service</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
-            <sys_id>46eb4bea378213008624ae7873990e51</sys_id>
+            <sys_created_on>2018-05-29 13:41:09</sys_created_on>
+            <sys_id>9670917e371213008624ae7873990e17</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
+            <sys_updated_on>2018-05-29 13:41:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,55 +19,55 @@
             <element>configuration</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
-            <sys_id>c6eb4bea378213008624ae7873990e51</sys_id>
+            <sys_created_on>2018-05-29 13:41:09</sys_created_on>
+            <sys_id>1a70917e371213008624ae7873990e17</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
+            <sys_updated_on>2018-05-29 13:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_costs</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 13:41:09</sys_created_on>
+            <sys_id>9a70917e371213008624ae7873990e17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 13:41:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>charge_cycle</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
-            <sys_id>4aeb4bea378213008624ae7873990e51</sys_id>
+            <sys_created_on>2018-05-29 13:41:09</sys_created_on>
+            <sys_id>1e70917e371213008624ae7873990e17</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
+            <sys_updated_on>2018-05-29 13:41:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>date_subscribe</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
-            <sys_id>caeb4bea378213008624ae7873990e51</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>end_date</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
-            <sys_id>4eeb4bea378213008624ae7873990e51</sys_id>
+            <sys_created_on>2018-05-29 13:41:09</sys_created_on>
+            <sys_id>9e70917e371213008624ae7873990e17</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
+            <sys_updated_on>2018-05-29 13:41:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
-            <sys_id>ceeb4bea378213008624ae7873990e51</sys_id>
+            <sys_created_on>2018-05-29 13:41:09</sys_created_on>
+            <sys_id>1270917e371213008624ae7873990e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
+            <sys_updated_on>2018-05-29 13:41:09</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>primary_contact</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
-            <sys_id>42eb4bea378213008624ae7873990e52</sys_id>
+            <sys_created_on>2018-05-29 13:41:09</sys_created_on>
+            <sys_id>9270917e371213008624ae7873990e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
+            <sys_updated_on>2018-05-29 13:41:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>secondary_contact</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
-            <sys_id>c2eb4bea378213008624ae7873990e52</sys_id>
+            <sys_created_on>2018-05-29 13:41:09</sys_created_on>
+            <sys_id>1670917e371213008624ae7873990e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
+            <sys_updated_on>2018-05-29 13:41:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>charging_information</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
-            <sys_id>46eb4bea378213008624ae7873990e52</sys_id>
+            <sys_created_on>2018-05-29 13:41:09</sys_created_on>
+            <sys_id>9670917e371213008624ae7873990e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
+            <sys_updated_on>2018-05-29 13:41:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,13 +131,27 @@
             <element>financial_contact</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-16 17:46:16</sys_created_on>
-            <sys_id>c6eb4bea378213008624ae7873990e52</sys_id>
+            <sys_created_on>2018-05-29 13:41:09</sys_created_on>
+            <sys_id>1a70917e371213008624ae7873990e18</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-16 17:46:16</sys_updated_on>
+            <sys_updated_on>2018-05-29 13:41:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 13:41:09</sys_created_on>
+            <sys_id>9a70917e371213008624ae7873990e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_125179_crms_service_subscription" sys_domain="global" view="Default view">535b8bac370213008624ae7873990e0a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 13:41:09</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

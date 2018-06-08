@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="CRMS Service">033ef664370213008624ae7873990e2d</application>
+        <application/>
         <filter/>
         <name>CC_base_configs</name>
         <order/>

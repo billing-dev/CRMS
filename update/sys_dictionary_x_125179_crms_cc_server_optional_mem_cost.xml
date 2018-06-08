@@ -9,13 +9,13 @@
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
-	return '';  // return the calculated value
+	return current.optional_mem * 60;  // return the calculated value
 
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Optional mem cost</column_label>
+        <column_label>Optional mem Cost</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -55,21 +55,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-25 13:15:32</sys_created_on>
         <sys_id>ef242469371213008624ae7873990ee7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>optional_mem_cost</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Optional mem Cost</sys_name>
         <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
         <sys_policy/>
         <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
         <sys_update_name>sys_dictionary_x_125179_crms_cc_server_optional_mem_cost</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-25 13:15:32</sys_updated_on>
+        <sys_updated_on>2018-05-29 14:59:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
