@@ -5,12 +5,13 @@
         <element label="AWARD" max_length="20" name="award" type="string"/>
         <element label="ENTITY" max_length="2" name="entity" type="string"/>
         <element label="FUNDING" max_length="6" name="funding" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="ORACLE ID" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="ORACLE ID" max_length="40" name="number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;if (current.string_type == &quot;GL&quot;)&#13;&#10;&#9;&#9;return current.funding + &quot;-&quot; +&#13;&#10;&#9;&#9;&#9;current.xfunc + &quot;-&quot; +&#13;&#10;&#9;&#9;&#9;current.activty + &quot;-&quot; +&#13;&#10;&#9;&#9;&#9;current.org + &quot;-&quot; +&#13;&#10;&#9;&#9;&#9;current.entity ;&#13;&#10;&#9;else&#13;&#10;&#9;&#9;&#9;&#9;&#9;&#13;&#10;&#9;return current.project + &quot;-&quot; +&#13;&#10;&#9;&#9;current.task + &quot;-&quot; +&#13;&#10;&#9;&#9;current.award;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="OracleString" max_length="40" name="oraclestring" type="string" virtual="true"/>
         <element label="ORG" max_length="6" name="org" type="string"/>
         <element label="PROJECT" max_length="20" name="project" type="string"/>
         <element choice="3" label="ORACLE STRING TYPE" max_length="40" name="string_type" type="choice">
             <choice>
-                <element label="Grants Management (GM)" value="2"/>
+                <element label="Grants Management (GM)" value="GM"/>
                 <element label="General Ledger (GL)" sequence="1" value="GL"/>
             </choice>
         </element>

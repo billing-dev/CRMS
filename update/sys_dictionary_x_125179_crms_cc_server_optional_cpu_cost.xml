@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Optional CPU Cost</column_label>
+        <column_label>Optional vCPU Cost</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -55,14 +55,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-25 13:15:07</sys_created_on>
         <sys_id>fc14ac29371213008624ae7873990e6b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Optional CPU Cost</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Optional vCPU Cost</sys_name>
         <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
         <sys_policy/>
         <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
         <sys_update_name>sys_dictionary_x_125179_crms_cc_server_optional_cpu_cost</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-29 14:55:48</sys_updated_on>
+        <sys_updated_on>2018-06-08 13:11:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

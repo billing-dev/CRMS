@@ -1,34 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_125179_crms_oracle_string">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="oraclestring" table="x_125179_crms_oracle_string">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>ignore_filter_on_new=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
-	return '';  // return the calculated value
+	if (current.string_type == "GL")
+		return current.funding + "-" +
+			current.xfunc + "-" +
+			current.activty + "-" +
+			current.org + "-" +
+			current.entity ;
+	else
+					
+	return current.project + "-" +
+		current.task + "-" +
+		current.award;  // return the calculated value
 
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>ORACLE ID</column_label>
+        <column_label>OracleString</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:global.getNextObjNumberPadded();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>number</element>
+        <element>oraclestring</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -53,14 +63,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-10 13:26:14</sys_created_on>
-        <sys_id>a2d697a4374213008624ae7873990e65</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>ORACLE ID</sys_name>
+        <sys_created_on>2018-06-12 13:29:22</sys_created_on>
+        <sys_id>73e3191f372213008624ae7873990eac</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>OracleString</sys_name>
         <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
         <sys_policy/>
         <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
-        <sys_update_name>sys_dictionary_x_125179_crms_oracle_string_number</sys_update_name>
+        <sys_update_name>sys_dictionary_x_125179_crms_oracle_string_oraclestring</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-06-12 13:37:05</sys_updated_on>
         <table_reference>false</table_reference>
@@ -69,7 +79,7 @@
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

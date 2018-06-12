@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="optional_disk" label="Optional disk" language="en" table="x_125179_crms_cc_server">
+    <sys_documentation element="optional_disk" label="Optional Standard Disk" language="en" table="x_125179_crms_cc_server">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>optional_disk</element>
             <help/>
             <hint/>
-            <label>Optional disk</label>
+            <label>Optional Standard Disk</label>
             <language>en</language>
             <name>x_125179_crms_cc_server</name>
-            <plural>Optional disks</plural>
+            <plural>Optional Standard Disks</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-25 13:14:38</sys_created_on>
             <sys_id>be046c29371213008624ae7873990eda</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>Optional disk</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Optional Standard Disk</sys_name>
             <sys_package display_value="CRMS" source="x_125179_crms">eb0d7a60370213008624ae7873990e39</sys_package>
             <sys_policy/>
             <sys_scope display_value="CRMS">eb0d7a60370213008624ae7873990e39</sys_scope>
             <sys_update_name>sys_documentation_x_125179_crms_cc_server_optional_disk_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-29 16:37:28</sys_updated_on>
+            <sys_updated_on>2018-06-08 13:18:15</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
